@@ -485,8 +485,6 @@ function App() {
             Nova{notifications.length > 1 ? 's' : ''} Notificação{notifications.length > 1 ? 'ões' : ''}
           </button>
         </div>
-          onMarkAsRead={handleMarkAlertAsRead}
-        />
       )}
     </div>
   );
